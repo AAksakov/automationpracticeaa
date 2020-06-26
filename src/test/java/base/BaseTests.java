@@ -24,7 +24,7 @@ public class BaseTests {
         inputsLink.click();
 
         System.out.println(driver.getTitle());
-        driver.quit();
+        //driver.quit();
     }
 
     public static void main(String args[]){
