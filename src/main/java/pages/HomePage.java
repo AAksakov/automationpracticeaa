@@ -27,7 +27,7 @@ public class HomePage {
     }
 
     public KeyPressesPage clickKeyPresses(){
-        clickLink("Key Preses");
+        clickLink("Key Presses");
         return new KeyPressesPage(driver);
     }
 
