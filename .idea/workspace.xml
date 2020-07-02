@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8d6f7b6-45b1-457c-8511-267669b38b57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/keys/KeysTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/AlertTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +40,35 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KeysTests.testAt">
-    <configuration name="DropDownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AlertTests">
+    <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationtestingjavase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dropdown.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dropdown" />
-      <option name="MAIN_CLASS_NAME" value="dropdown.DropDownTests" />
-      <option name="METHOD_NAME" value="testSelectOption" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTests.testAcceptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationtestingjavase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+      <option name="METHOD_NAME" value="testAcceptAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -59,17 +76,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverTests.testHoverUser1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTests.testGetTextFromAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationtestingjavase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hover.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hover" />
-      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
-      <option name="METHOD_NAME" value="testHoverUser1" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+      <option name="METHOD_NAME" value="testGetTextFromAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTests.testSetInputInAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationtestingjavase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+      <option name="METHOD_NAME" value="testSetInputInAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -95,48 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeysTests.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationtestingjavase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="keys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="keys" />
-      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
-      <option name="METHOD_NAME" value="testBackspace" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationtestingjavase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AlertTests" />
+        <item itemvalue="TestNG.AlertTests.testSetInputInAlert" />
+        <item itemvalue="TestNG.AlertTests.testGetTextFromAlert" />
+        <item itemvalue="TestNG.AlertTests.testAcceptAlert" />
         <item itemvalue="TestNG.KeysTests.testAt" />
-        <item itemvalue="TestNG.KeysTests.testBackspace" />
-        <item itemvalue="TestNG.HoverTests.testHoverUser1" />
-        <item itemvalue="TestNG.DropDownTests.testSelectOption" />
-        <item itemvalue="TestNG.LoginTests" />
       </list>
     </recent_temporary>
   </component>
@@ -166,56 +166,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593164212108" />
-    <state width="1537" height="269" key="GridCell.Tab.0.bottom" timestamp="1593615465902">
+    <state width="1537" height="217" key="GridCell.Tab.0.bottom" timestamp="1593695480411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593615465902" />
-    <state width="1537" height="269" key="GridCell.Tab.0.center" timestamp="1593615465902">
+    <state width="1537" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593695480411" />
+    <state width="1537" height="217" key="GridCell.Tab.0.center" timestamp="1593695480411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.0.center/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593615465902" />
-    <state width="1537" height="269" key="GridCell.Tab.0.left" timestamp="1593615465902">
+    <state width="1537" height="217" key="GridCell.Tab.0.center/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593695480411" />
+    <state width="1537" height="217" key="GridCell.Tab.0.left" timestamp="1593695480411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.0.left/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593615465902" />
-    <state width="1537" height="269" key="GridCell.Tab.0.right" timestamp="1593615465902">
+    <state width="1537" height="217" key="GridCell.Tab.0.left/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593695480411" />
+    <state width="1537" height="217" key="GridCell.Tab.0.right" timestamp="1593695480411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.0.right/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593615465902" />
-    <state width="1537" height="269" key="GridCell.Tab.1.bottom" timestamp="1593615473638">
+    <state width="1537" height="217" key="GridCell.Tab.0.right/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593695480411" />
+    <state width="1537" height="269" key="GridCell.Tab.1.bottom" timestamp="1593616131668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593615473638" />
-    <state width="1537" height="269" key="GridCell.Tab.1.center" timestamp="1593615473638">
+    <state width="1537" height="269" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593616131668" />
+    <state width="1537" height="269" key="GridCell.Tab.1.center" timestamp="1593616131668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.1.center/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593615473638" />
-    <state width="1537" height="269" key="GridCell.Tab.1.left" timestamp="1593615473638">
+    <state width="1537" height="269" key="GridCell.Tab.1.center/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593616131668" />
+    <state width="1537" height="269" key="GridCell.Tab.1.left" timestamp="1593616131668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.1.left/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593615473638" />
-    <state width="1537" height="269" key="GridCell.Tab.1.right" timestamp="1593615473638">
+    <state width="1537" height="269" key="GridCell.Tab.1.left/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593616131668" />
+    <state width="1537" height="269" key="GridCell.Tab.1.right" timestamp="1593616131668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="269" key="GridCell.Tab.1.right/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593615473638" />
+    <state width="1537" height="269" key="GridCell.Tab.1.right/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593616131668" />
     <state x="349" y="155" key="IDE.errors.dialog" timestamp="1593593372611">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593593372611" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593093333269">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593693334028">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593093333269" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/keys/KeysTests.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593693334028" />
   </component>
 </project>
