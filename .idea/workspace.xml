@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8d6f7b6-45b1-457c-8511-267669b38b57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WysiwygEditorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/frames/FrameTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContextMenuTests.testRightClick">
+  <component name="RunManager" selected="TestNG.FrameTests.testWysiwyg">
     <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationtestingjavase" />
       <extension name="coverage">
@@ -48,24 +52,6 @@
       <option name="PACKAGE_NAME" value="alerts" />
       <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTests.testGetTextFromAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationtestingjavase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
-      <option name="METHOD_NAME" value="testGetTextFromAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,13 +112,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FrameTests.testWysiwyg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationtestingjavase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="frames" />
+      <option name="MAIN_CLASS_NAME" value="frames.FrameTests" />
+      <option name="METHOD_NAME" value="testWysiwyg" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FrameTests.testWysiwyg" />
         <item itemvalue="TestNG.ContextMenuTests.testRightClick" />
         <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
         <item itemvalue="TestNG.AlertTests" />
         <item itemvalue="TestNG.AlertTests.testSetInputInAlert" />
-        <item itemvalue="TestNG.AlertTests.testGetTextFromAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -158,26 +162,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593597046787" />
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594036451209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594036451209" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593164212108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593164212108" />
-    <state width="1537" height="217" key="GridCell.Tab.0.bottom" timestamp="1593785757804">
+    <state width="1537" height="217" key="GridCell.Tab.0.bottom" timestamp="1594038808803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593785757804" />
-    <state width="1537" height="217" key="GridCell.Tab.0.center" timestamp="1593785757804">
+    <state width="1537" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594038808803" />
+    <state width="1537" height="217" key="GridCell.Tab.0.center" timestamp="1594038808802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="217" key="GridCell.Tab.0.center/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593785757804" />
-    <state width="1537" height="217" key="GridCell.Tab.0.left" timestamp="1593785757804">
+    <state width="1537" height="217" key="GridCell.Tab.0.center/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594038808802" />
+    <state width="1537" height="217" key="GridCell.Tab.0.left" timestamp="1594038808802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="217" key="GridCell.Tab.0.left/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593785757804" />
-    <state width="1537" height="217" key="GridCell.Tab.0.right" timestamp="1593785757804">
+    <state width="1537" height="217" key="GridCell.Tab.0.left/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594038808802" />
+    <state width="1537" height="217" key="GridCell.Tab.0.right" timestamp="1594038808803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="217" key="GridCell.Tab.0.right/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593785757804" />
+    <state width="1537" height="217" key="GridCell.Tab.0.right/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594038808803" />
     <state width="1537" height="269" key="GridCell.Tab.1.bottom" timestamp="1593616131668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
