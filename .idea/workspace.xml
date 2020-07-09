@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8d6f7b6-45b1-457c-8511-267669b38b57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MultipleWindowsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +43,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JavaScriptTests.testScrollToTable">
+  <component name="RunManager" selected="TestNG.NavigationTests.testSwitchTab">
     <configuration name="ContextMenuTests.testRightClick" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationtestingjavase" />
       <extension name="coverage">
@@ -48,24 +55,6 @@
       <option name="PACKAGE_NAME" value="exercises" />
       <option name="MAIN_CLASS_NAME" value="exercises.ContextMenuTests" />
       <option name="METHOD_NAME" value="testRightClick" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileUploadTests.testFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationtestingjavase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.FileUploadTests" />
-      <option name="METHOD_NAME" value="testFileUpload" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,6 +98,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NavigationTests.testSwitchTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationtestingjavase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="navigation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
+      <option name="METHOD_NAME" value="testSwitchTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WaitTests.testWaitUntilHidden" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationtestingjavase" />
       <extension name="coverage">
@@ -129,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NavigationTests.testSwitchTab" />
         <item itemvalue="TestNG.JavaScriptTests.testScrollToTable" />
         <item itemvalue="TestNG.WaitTests.testWaitUntilHidden" />
         <item itemvalue="TestNG.FrameTests.testWysiwyg" />
         <item itemvalue="TestNG.ContextMenuTests.testRightClick" />
-        <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
       </list>
     </recent_temporary>
   </component>
@@ -167,22 +174,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593164212108" />
-    <state width="1537" height="217" key="GridCell.Tab.0.bottom" timestamp="1594221783186">
+    <state width="1537" height="217" key="GridCell.Tab.0.bottom" timestamp="1594299026280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594221783186" />
-    <state width="1537" height="217" key="GridCell.Tab.0.center" timestamp="1594221783186">
+    <state width="1537" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594299026280" />
+    <state width="1537" height="217" key="GridCell.Tab.0.center" timestamp="1594299026279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="217" key="GridCell.Tab.0.center/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594221783186" />
-    <state width="1537" height="217" key="GridCell.Tab.0.left" timestamp="1594221783185">
+    <state width="1537" height="217" key="GridCell.Tab.0.center/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594299026279" />
+    <state width="1537" height="217" key="GridCell.Tab.0.left" timestamp="1594299026278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="217" key="GridCell.Tab.0.left/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594221783185" />
-    <state width="1537" height="217" key="GridCell.Tab.0.right" timestamp="1594221783186">
+    <state width="1537" height="217" key="GridCell.Tab.0.left/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594299026278" />
+    <state width="1537" height="217" key="GridCell.Tab.0.right" timestamp="1594299026279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="217" key="GridCell.Tab.0.right/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594221783186" />
+    <state width="1537" height="217" key="GridCell.Tab.0.right/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594299026279" />
     <state width="1537" height="269" key="GridCell.Tab.1.bottom" timestamp="1593616131668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -203,9 +210,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593593372611" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593693334028">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594298413169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1593693334028" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.-250.1920.1040@0.0.1536.824" timestamp="1594298413169" />
   </component>
 </project>
